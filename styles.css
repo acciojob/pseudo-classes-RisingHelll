@@ -2,28 +2,28 @@
 :root{
 	background-color:rgb(135, 206, 235);
 }
-p:first-child{
+div :first-child{
 	background-color:black;
 	color:white;
 }
 
-p:last-child{
+div :last-child{
 	color:red;
 }
 
-li:nth-child(even){
+ul li:nth-child(even){
 	background-color:gray;
 }
 
-li:nth-child(3){
+ul li:nth-child(3){
 	background-color:pink;
 }
 
-li:first-child{
+ul li:first-child{
 	background-color:white;
 }
 
-li:last-child{
+ul li:last-child{
 	background-color:white;
 }
 
